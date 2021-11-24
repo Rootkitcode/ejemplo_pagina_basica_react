@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #051d4e;
+}
+
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: double;
+
+}
+
+h2{
+  font-size: 6vmax;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(212, 212, 212);
+}
+
+.container {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 12px;
+    
+}
+
+.container .card {
+    width: 331px;
+    height: 430px;
+    border-radius: 12px;
+    background-color: rgb(4, 4, 143);
+    border: solid 1px black;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0, 26s;
+    box-shadow: 0 0 55px rgb(2, 255, 99);
+}
+
+.container .card img {
+    width: 260px;
+    height: 220px;
+}
+
+.container .card h3 {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(227, 223, 230);
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 5px rgb(2, 255, 99);
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container .card a {
+    font-weight: 200;
+    color: blueviolet;
+    text-decoration: none;
+}
+.button{
+  background-color: #d2b9e7;
+  width: 12rem;
+  height: 2rem;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.image{
+    border: solid 2px rgb(71, 241, 3);
+    box-shadow: 0 0 55px rgb(2, 255, 99);
+    background-color: rgb(4, 12, 56);
+    margin: 15px;
+    
+}
+
